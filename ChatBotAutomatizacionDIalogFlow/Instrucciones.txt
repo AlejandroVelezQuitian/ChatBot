@@ -2,3 +2,6 @@ Funcionamiento.
 Tener Instalado Node.js
 Ejecuntar node index.js para levantar el sevidor local, abrir en el buscador el dominio : http://localhost:3000/
 en caso de tener dudas estare antento al correo electronico o al whatsapp.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+URL BaseDatos(Excel)
+https://docs.google.com/spreadsheets/d/1a6t6oyF5chhvIN9mgtRdhrOqcO_Pqxn1IeYCrNTrs50/edit?usp=sharing
