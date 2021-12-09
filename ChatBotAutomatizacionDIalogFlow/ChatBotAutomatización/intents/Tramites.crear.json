@@ -1,0 +1,128 @@
+{
+  "id": "efda6958-cf6d-4847-b9b2-d12001110015",
+  "name": "Tramites.crear",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4f588fd5-0728-4b9a-8eca-18d3ccd89bc9",
+          "name": "Identificacion",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$Identificacion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor, ingresa tu número de identificación (CC-TI)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "47541061-0ff8-4a3d-b16e-41eb29aac130",
+          "name": "Nombres",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$Nombres",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingresa tus nombres"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0c7392df-7216-491e-ac06-dc294ee08c31",
+          "name": "Apellidos",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$Apellidos",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingresa tus apellidos"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "28f5a5f9-139c-443b-bc5c-e98ff14954bd",
+          "name": "Url",
+          "required": true,
+          "dataType": "@sys.url",
+          "value": "$Url",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingrese el archivo de solicitud"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "65adb357-2342-466c-8d43-b02e7782214c",
+          "name": "EntidadPrestadora",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$EntidadPrestadora",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingrese el nombre de la entidad prestadora de servicio(EPS)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

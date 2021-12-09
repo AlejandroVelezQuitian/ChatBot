@@ -1,0 +1,58 @@
+{
+  "id": "0eebd4ec-a4c9-4d93-962b-0dfb93c988a3",
+  "name": "Bot.menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://sintesis.com.mx/wp-content/uploads/2017/09/wsdasdsad.jpg",
+          "subtitle": "Sección de trámites",
+          "title": "Trámites",
+          "buttons": [
+            {
+              "postback": "Empezar Trámite",
+              "text": "Empezar Trámite"
+            },
+            {
+              "postback": "Estado trámite",
+              "text": "Estado trámite"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para consultar el estado de una cita escribe: \u0027consulta\u0027\nPara solicitar la asignación de una cita con uno de nuestros especialistas escribe: \u0027solicitud\u0027"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

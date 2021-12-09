@@ -1,0 +1,52 @@
+{
+  "id": "ee942808-1f63-4808-9eab-9a58ea51afd1",
+  "name": "Tramites.consultar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c1924882-88f6-4799-a3c1-c84baaf4510c",
+          "name": "NroSolicitudCita",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$NroSolicitudCita",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingrese el número de seguimiento que se le asigno a tu \u0027Solicitud de cita\u0027."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

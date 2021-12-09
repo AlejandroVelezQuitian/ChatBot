@@ -1,0 +1,4 @@
+Funcionamiento. 
+Tener Instalado Node.js
+Ejecuntar node index.js para levantar el sevidor local, abrir en el buscador el dominio : http://localhost:3000/
+en caso de tener dudas estare antento al correo electronico o al whatsapp.
